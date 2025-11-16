@@ -34,7 +34,7 @@
 }
 
 body{
-    background: var(--white);
+    background-color: var(--white);
     font-family: 'Lato-Bold', sans-serif;
 }
 
@@ -102,4 +102,45 @@ nav a:hover{
 
 .mini-menu{
     display: none;
+}
+
+.home{
+    min-height: 926px;
+    background: url('../images/bg.jpg') center/cover fixed;;
+}
+
+body{
+    height: 3000px;
+}
+
+.home-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: inherit;
+    text-align: center;
+}
+
+.home-title{
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 68px;
+}
+
+.home-text{
+    color: var(--white);
+    max-width: 1000px;
+    margin: 50px auto 90px;
+    font-size: 22px;
+    line-height: 38px;
+}
+
+.home-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    background: var(--green);
+    color: var(--white);
+    font-size: 26px;
+    padding: 25px 40px;
+    border-radius: 5px;
 }

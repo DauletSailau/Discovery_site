@@ -4,6 +4,7 @@ $(function () {
             $(this).next().slideDown();
         } else {
             $(this).next().slideUp();
+            
         }
     });
-});
+})();
