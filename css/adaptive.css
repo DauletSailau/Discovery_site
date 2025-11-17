@@ -20,6 +20,20 @@
     min-height: auto;
     padding: 40px 0;
   }
+
+  .fav-container{
+    flex-direction: column;
+  }
+
+  .fav-item{
+    max-width: 100%;
+  }
+  .fav-text{
+    max-width: 100%;
+  }
+  .fav-img{
+    max-width: 30%;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -58,5 +72,17 @@
   header .container{
     padding-left: 0;
     padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fav-item{
+    flex-direction: column;
+ text-align: center;
+  }
+  .fav-img{
+    max-width: 70%;
+    margin: 0 auto;
+    border: 3px solid var(--white);
   }
 }
