@@ -23,6 +23,7 @@
     />
     <meta name="apple-mobile-web-app-title" content="Daulet" />
     <link rel="manifest" href="images/site.webmanifest" />
+  <link rel="stylesheet" href="css/fancybox.css" />
 
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/adaptive.css" />
@@ -104,9 +105,25 @@
           </article>
         </div>
       </section>
+
+      <section class="tours">
+        <h2 class="section-title">Tours</h2>
+        <div class="container tours-container">
+          <a data-fancybox='tour' href="https://picsum.photos/id/15/1200/1200">
+            <img src="https://picsum.photos/id/15/270/215" alt="">
+          </a>
+          <a data-fancybox='tour' href="https://picsum.photos/id/25/1200/1200">
+            <img src="https://picsum.photos/id/25/270/215" alt="">
+          </a>
+        </div>
+        <button class="more">See more</button>
+      </section>
+
     </div>
 
     <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/fancybox.umd.js"></script>
+
     <script src="js/scripts.js"></script>
   </body>
 </html>
