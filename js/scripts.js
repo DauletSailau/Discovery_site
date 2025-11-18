@@ -8,9 +8,17 @@ $(function () {
         }
     });
 
-Fancybox.bind("[data-fancybox]", {
-  // Your custom options
-});
+    $('.service-slider').slick({
+    arrows: false,
+    dots: true,
+    responsive: [{
+        breakpoint: 800,
+        settings:{
+            dots: false,
+            centerMode: true,
+            centerPadding: '40px' 
+        }
+    }]
+    })
 
 })();
-

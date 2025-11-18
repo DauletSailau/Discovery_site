@@ -1,3 +1,27 @@
+@media screen and (max-width: 1200px) {
+.service{
+  flex-direction: column;
+}
+
+.service-slider, .service-block{
+  width: 100%;
+}
+
+.service-slider{
+  height: 280px;
+}
+
+.slide img{
+  width: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+
+
+}
+
+
 @media screen and (max-width: 1000px) {
   header .container {
     flex-direction: column;
@@ -73,6 +97,11 @@
     padding-left: 0;
     padding-right: 0;
   }
+
+  .service-item{
+    width: 100%;
+
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -84,5 +113,11 @@
     max-width: 70%;
     margin: 0 auto;
     border: 3px solid var(--white);
+  }
+  .slide img{
+    filter: blur(3px);
+  }
+  .slick-center img{
+    filter:blur(0);
   }
 }
