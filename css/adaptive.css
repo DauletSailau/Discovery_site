@@ -1,21 +1,22 @@
 @media screen and (max-width: 1200px) {
-.service{
-  flex-direction: column;
-}
+  .service {
+    flex-direction: column;
+  }
 
-.service-slider, .service-block{
-  width: 100%;
-}
+  .service-slider,
+  .service-block {
+    width: 100%;
+  }
 
-.service-slider{
-  height: 280px;
-}
+  .service-slider {
+    height: 280px;
+  }
 
-.slide img{
-  width: 100%;
-  object-fit: cover;
-  object-position: bottom;
-}
+  .slide img {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+  }
 
 
 
@@ -32,34 +33,38 @@
     margin-top: 40px;
     width: 100%;
   }
+
   nav li {
     flex-grow: 1;
   }
+
   nav a {
     padding: 56px 0;
     text-align: center;
   }
 
-  .home{
+  .home {
     min-height: auto;
     padding: 40px 0;
   }
 
-  .fav-container{
+  .fav-container {
     flex-direction: column;
   }
 
-  .fav-item{
+  .fav-item {
     max-width: 100%;
   }
-  .fav-text{
+
+  .fav-text {
     max-width: 100%;
   }
-  .fav-img{
+
+  .fav-img {
     max-width: 30%;
   }
 
-  .tours-container a{
+  .tours-container a {
     flex: 0 32%;
   }
 }
@@ -68,19 +73,21 @@
   nav ul {
     flex-direction: column;
   }
+
   nav a {
     padding: 20px 0;
     background: var(--green);
     color: var(--white);
     border-top: 2px solid var(--white);
   }
+
   nav a:hover {
     background-color: rgba(89, 196, 90, 0.6);
     color: var(--font);
   }
 
-  .home-title{
-    font-size:50px;
+  .home-title {
+    font-size: 50px;
   }
 
   .mini-menu {
@@ -97,40 +104,56 @@
     outline: none;
   }
 
-  header .container{
+  header .container {
     padding-left: 0;
     padding-right: 0;
   }
 
-  .service-item{
+  .service-item {
     width: 100%;
 
   }
 
-  .tours-container a{
+  .tours-container a {
     flex: 0 49%;
+  }
+
+  .contacts-container {
+    flex-direction: column;
+  }
+
+  .contact-info,
+  .contact-form {
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .fav-item{
+  .fav-item {
     flex-direction: column;
- text-align: center;
+    text-align: center;
   }
-  .fav-img{
+
+  .fav-img {
     max-width: 70%;
     margin: 0 auto;
     border: 3px solid var(--white);
   }
-  .slide img{
+
+  .slide img {
     filter: blur(3px);
   }
-  .slick-center img{
-    filter:blur(0);
+
+  .slick-center img {
+    filter: blur(0);
   }
 
-  .tours-container a{
+  .tours-container a {
     flex: 0 100%;
   }
-  
+
+  .contact-form button i{
+    margin-left: 20px;
+}
+
 }
