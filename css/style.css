@@ -279,3 +279,41 @@ body {
 .slick-list, .slick-track, .slide img{
     height: 100%;
 }
+
+.tours{
+    padding: 100px 0;
+    text-align: center;
+}
+.tours-container{
+    flex-wrap: wrap;
+    margin: 75px auto;
+}
+
+.tours-container a img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.tours-container a{
+    flex: 0 24%;
+    margin-bottom: 2%;
+}
+
+.more{
+    cursor: pointer;
+    border:none;
+    text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--green);
+    font-size: 26px;
+    padding: 25px 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 35px rgba(89, 196, 90, 0.65);
+    transition: .3s;
+}
+
+.more:hover{
+    box-shadow: none;
+}
